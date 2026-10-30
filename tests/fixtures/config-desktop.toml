@@ -1,0 +1,5 @@
+[general]
+model = "gpt-5"
+
+[desktop]
+theme = "dark"

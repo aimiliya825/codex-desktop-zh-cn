@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "status": "failed",
+  "code": "CDP_NOT_READY",
+  "exitCode": 2,
+  "mode": "inject",
+  "renderer": {
+    "ok": false,
+    "error": { "code": "CDP_TARGET_TIMEOUT", "message": "未在 25 秒内找到 Codex 渲染页面" }
+  },
+  "menu": { "required": false, "status": "not-needed", "reason": "inspector-port-not-open" },
+  "checks": [],
+  "warnings": [],
+  "errors": [{ "code": "CDP_TARGET_TIMEOUT", "message": "未在 25 秒内找到 Codex 渲染页面" }]
+}

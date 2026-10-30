@@ -1,0 +1,6 @@
+[desktop]
+localeOverride = "zh-CN"
+foo = 2
+
+[general]
+localeOverride = "en-US"

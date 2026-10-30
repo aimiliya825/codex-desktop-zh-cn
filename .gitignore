@@ -1,0 +1,23 @@
+# Codex 汉化工具生成的文件（不要提交）
+logs/
+results/
+*.log
+*.bak-zhcn
+state.json
+
+# 本地测试临时文件
+tests/.tmp/
+tests/tmp/
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Node（本项目零依赖，仅防御性忽略）
+node_modules/
+package-lock.json

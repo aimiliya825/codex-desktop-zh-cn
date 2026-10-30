@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "status": "complete",
+  "code": "OK",
+  "exitCode": 0,
+  "mode": "inject",
+  "renderer": {
+    "ok": true,
+    "target": { "id": "target-main", "type": "page", "title": "ChatGPT", "url": "app://-/index.html" },
+    "targetsInjected": [
+      { "target": { "id": "target-main", "type": "page", "url": "app://-/index.html" } }
+    ],
+    "verify": {
+      "status": "ok",
+      "navigatorLanguage": "zh-CN",
+      "documentLanguage": "zh-CN",
+      "languageMatches": true,
+      "zhMatches": 7,
+      "enMatches": 0,
+      "chineseChars": 229,
+      "i18nState": { "patchedClients": 1, "patchedConfigs": 1 }
+    }
+  },
+  "menu": {
+    "required": false,
+    "status": "not-needed",
+    "reason": "inspector-port-not-open",
+    "note": "官方 i18n 已覆盖原生菜单，无需注入"
+  },
+  "checks": [
+    { "name": "renderer-port-ready", "ok": true, "detail": "port=58949" },
+    { "name": "ui-chinese", "ok": true, "detail": "status=ok;chars=229;zh=7;en=0" },
+    { "name": "native-menu", "ok": true, "detail": "mode=official-i18n;reason=inspector-port-not-open" }
+  ],
+  "warnings": [],
+  "errors": []
+}
